@@ -3,11 +3,47 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@200..800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@200..800&family=Metal+Mania&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@200..800&family=Metal+Mania&family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Creepster&family=Explora&family=MedievalSharp&family=Nosifer&display=swap" rel="stylesheet">
+  <!--Font Awesome-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
   <link href="./css/styles.css" rel="stylesheet">
 </head>
 <body>
-  <h1 class="text-3xl font-bold underline">
-    Hello world!
-  </h1>
+  <header class="bg-black py-6 lg:py-12 text-off-white uppercase">
+    <div class="container flex items-center justify-between space-x-8 lg:space-x-16"  >
+      <a href="#" class="text-4xl md: lg:6xl font-metalmania text-transparent bg-gradient-to-r bg-clip-text from-mist-silver to-amethyst-purple ml-2">METAL MELANCHOLIA</a>
+      <nav class="flex justify-between flex-1">
+      <!--Menu-->
+        <div class="flex items-center text-lg space-x-8 text-steel-silver font-nosifer whitespace-nowrap text-overflow-ellipsis ">
+          <a href="#" class="hover:text-silver-blue  duration-500 ">BANDS</a>
+          <a href="#" class="hover:text-silver-blue duration-500 ">GALLERY</a>
+          <a href="#" class="hover:text-silver-blue duration-500 ">ABOUT</a>
+          <a href="#" class="hover:text-silver-blue duration-500 ">CONTACT</a>
+        </div>
+        <div class="flex items-center space-x-8">
+          <!--login div-->
+          <form>
+            <div class="group border-r px-4 mx-4 py-1 border-pewter-silver whitespace-nowrap">
+              <input type="text" class="opacity-0 group-hover:opacity-100 bg-transparent border-b border-mist-silver focus:outline-none w-44 transition duration-500">
+              <button class="-ml-4 group-hover:ml-0 transition duration-500"><i class="fas fa-search group-hover:text-pewter-silver transition duration-500"></i></button>
+          </div>
+        </form>
+          <!--Sign up-->
+          <div class="flex items-center space-x-8 text-lg font-medievalsharp text-steel-silver whitespace-nowrap text-overflow-ellipsis">
+            <a href="#" class="hover:text-pewter-silver transition duration-500" >Login</a>
+            <a href="#" class="bg-pewter-silver px-3 py-1 text- hover:bg-twilight-purple cursor-pointer transition duration-500">Sign Up</a>
+          </div>
+      </nav>
+    </div>
+
+  </header>
+
+
 </body>
 </html>
