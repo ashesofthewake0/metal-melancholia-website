@@ -15,33 +15,46 @@
   <link href="./css/styles.css" rel="stylesheet">
 </head>
 <body>
+  <!--Header-->
   <header class="bg-black py-6 lg:py-12 text-off-white uppercase">
     <div class="container flex items-center justify-between space-x-8 lg:space-x-16"  >
-      <a href="#" class="text-4xl md: lg:6xl font-metalmania text-transparent bg-gradient-to-r bg-clip-text from-mist-silver to-amethyst-purple ml-2">METAL MELANCHOLIA</a>
-      <nav class="flex justify-between flex-1">
-      <!--Menu-->
-        <div class="flex items-center text-lg space-x-8 text-steel-silver font-nosifer whitespace-nowrap text-overflow-ellipsis ">
-          <a href="#" class="hover:text-silver-blue  duration-500 ">BANDS</a>
-          <a href="#" class="hover:text-silver-blue duration-500 ">GALLERY</a>
-          <a href="#" class="hover:text-silver-blue duration-500 ">ABOUT</a>
-          <a href="#" class="hover:text-silver-blue duration-500 ">CONTACT</a>
+      <!--Logo-->
+      <a href="#" class="pl-4 md:pl-0 text-2xl  lg:text-4xl font-metalmania text-transparent bg-gradient-to-r bg-clip-text from-mist-silver to-amethyst-purple ml-2">METAL MELANCHOLIA</a>
+      
+      <!--Mobile Menu-->
+      <div class="block md:hidden pr-4">
+        <div class="space-y-1 cursor-pointer">
+          <div class="bg-mist-silver w-8 h-1 rounded-full"></div>
+          <div class="bg-mist-silver w-8 h-1 rounded-full"></div>
+          <div class="bg-mist-silver w-8 h-1 rounded-full"></div>
+      </div>
+    </div>    
+
+      <nav class="hidden md:flex justify-between flex-1">
+        <!--Menu-->
+        <div class="flex items-center space-x-4 lg:text-lg lg:space-x-8 text-steel-silver font-nosifer whitespace-nowrap ">
+          <a href="#" class="hover:text-silver-blue transition duration-500 ">BANDS</a>
+          <a href="#" class="hover:text-silver-blue transition duration-500 ">GALLERY</a>
+          <a href="#" class="hover:text-silver-blue transition duration-500 ">ABOUT</a>
+          <a href="#" class="hover:text-silver-blue transition duration-500 ">CONTACT</a>
         </div>
-        <div class="flex items-center space-x-8">
-          <!--login div-->
+
+        <!--login div-->
+        <div class="flex items-center space-x-4 lg:space-x-8">
           <form>
             <div class="group border-r px-4 mx-4 py-1 border-pewter-silver whitespace-nowrap">
-              <input type="text" class="opacity-0 group-hover:opacity-100 bg-transparent border-b border-mist-silver focus:outline-none w-44 transition duration-500">
+              <input type="text" class="opacity-0 group-hover:opacity-100 bg-transparent border-b border-mist-silver focus:outline-none w-24 lg:w-44 transition duration-500">
               <button class="-ml-4 group-hover:ml-0 transition duration-500"><i class="fas fa-search group-hover:text-pewter-silver transition duration-500"></i></button>
           </div>
         </form>
+
           <!--Sign up-->
-          <div class="flex items-center space-x-8 text-lg font-medievalsharp text-steel-silver whitespace-nowrap text-overflow-ellipsis">
+          <div class="flex items-center space-x-4 lg:space-x-8 lg:text-lg font-medievalsharp text-steel-silver whitespace-nowrap text-overflow-ellipsis">
             <a href="#" class="hover:text-pewter-silver transition duration-500" >Login</a>
             <a href="#" class="bg-pewter-silver px-3 py-1 text- hover:bg-twilight-purple cursor-pointer transition duration-500">Sign Up</a>
           </div>
       </nav>
     </div>
-
   </header>
 
 
